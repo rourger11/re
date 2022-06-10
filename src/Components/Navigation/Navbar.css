@@ -1,0 +1,37 @@
+*{
+margin: 0px auto;
+}
+
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    background-color: #6181f5;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  li a{
+      display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+  }
+  
+li a:hover {
+    background-color: rgb(35, 4, 170);
+  }
+  .active {
+    background-color: rgb(7, 182, 36);
+  }
+  .cart{
+    width: 22%;
+    padding-left: 65%;
+  }
+  .navbar p{
+    padding-right: 20px;
+    padding: 14px 16px;
+
+  }
+  
